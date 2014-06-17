@@ -1,3 +1,5 @@
 <?php
-///test 1
+function test(){
+	return TREU;
+}
 ?>
