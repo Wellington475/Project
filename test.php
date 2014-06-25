@@ -3,11 +3,10 @@
 		<meta charset="utf-8">
 	</head>
 	<body>
-
-	</body>
-	<h3>
+		<h3>
 		<?php
 			echo "Hello word!";
 		?>
 	</h3>	
+	</body>
 </htm>
