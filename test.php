@@ -4,9 +4,9 @@
 	</head>
 	<body>
 		<h3>
-		<?php
-			echo "Hello word!";
-		?>
-	</h3>	
+			<?php
+				echo "Hello word!";
+			?>
+		</h3>	
 	</body>
 </htm>
