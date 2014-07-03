@@ -1,31 +1,164 @@
 <html>
 	<head>
 		<title>
-			TEST
+			Tinary
 		</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/bootstrap.css">
 		<script src="../js/jquery-1.11.1.js"></script>
+		<script src="../js/bootstrap.js"></script>
 	</head>
+	<style>
+		*
+		{
+			margin: 0px;
+		}
+		body
+		{
+			background-color:#E7E9EB;
+			font-family: Arial, Verdana, Tahoma;
+		}
+		ul, ol 
+		{
+			padding: 0;
+			margin: 0 0 10px 25px;
+		}
+		.navbar .brand 
+		{
+			margin-top: 10px;
+			margin-right: 40px;	
+		}
+		.buttom
+		{
+			background-color: #212323;
+			color: #fff;
+			border: 0px;
+			border-radius: 5px;
+			padding:10px;
+			cursor: pointer;
+			font-weight: bold;
+		}
+		.profile
+		{
+			background-size: 32px 32px;
+			border-radius: 50%;
+			display: block;
+			margin: -1px;
+			height: 32px;
+			width: 32px;
+		}
+		.icon-user
+		{
+			background-image:url("https://en.opensuse.org/images/0/0b/Icon-user.png");
+			display: inline-block;
+			width: 14px;
+			height: 14px;
+			line-height: 14px;
+			background-repeat: no-repeat;vertical-align: text-top;
+			background-size: 16px auto;
+		}
+	</style>
 	<body>
-		<div class="trigger">Trigger</div>
-		<div class="result"></div>
-		<div class="log"></div>
+		<table boder="0" cellspacing="0" cellpadding="0" style="width:100%; height:100%;">	
+			<tr>
+				<td valign="top" align="center" style="height:80px; width:100%;">
+					<div class="navbar navbar-fixed-top">
+						<div class="navbar-inner">
+							<table class="container">
+								<tr>
+									<td>
+										<a class="brand"href="#">
+											<img src="http://2.bp.blogspot.com/-cBYDkxzhVCQ/U5_KLa9wyMI/AAAAAAAADFQ/DOF-7z9guck/s1600/LOGO.png" style="height:100x; width:100px;">
+										</a>
+									</td>
+									<td>		
+										<ul class="nav" style="height:100%;">
+											<li style="float: left;">
+												<a href="../home">
+													Home
+												</a>
+											</li>
+											<li style="float: left;">
+												<a href="../calendario">
+													Quem somos
+												</a>
+											</li>
+											<li style="float: left;">
+												<a href="../duvidas-frequentes">
+													Empresa
+												</a>
+											</li>
+											<li style="float: left;">
+												<a href="../fale-conosco">
+													Projetos
+												</a>
+											</li>
+										</ul>
+									</td>
+									<td style="width:300px;">
+										<div class="btn-group pull-right">
+											<a href="#">
+												<span class="profile" style="float:right; margin-left:15px; margin-top:5px; background-image:url(https://tracker.moodle.org/secure/attachment/30912/f3.png);">
+												</span>
+											</a>
+											<a href="#">
+												<div style="float:right; height:40px; width:40px; background-image:url('http://www.diamonddustserver.co.uk/images/menu-icon.png'); background-size: 39px auto; background-position: 3px; background-repeat: repeat-y; margin-left: 8px;">
+												</div>
+											</a>
+											<a href="#" class="btn btn-small btn-primary" style="border-top-left-radius: 5px; border-bottom-left-radius: 5px; margin-top:3px;">
+												cadastrar-se <i class="icon-user"></i>
+											</a>
+										</div>	
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top" align="center" style="height:100%; width:100%; background:url(http://1.bp.blogspot.com/-W28KXjVSqzg/U5ssMoN1WXI/AAAAAAAAC-Q/gI3WRPxMZPw/s1600/banner+em+flat+tinary+efeito+c%C3%B3pia.png); background-size: 115% auto; background-repeat:repeat-x;">
+					<div>
+						<!-- Cont -->
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top" align="center" style="height:100%px; width:100%; background: #f2f2f2; border-top: 1px solid #e4e4e4; line-height: 40px;">
+					<div style="visibility: visible; position:absolute; margin-top:-4%; margin-left:30%;">
+						<span style="float:left; border-radius: 100%; display: inline-block; height: 8px; margin: 7px 5px 10px 1px; vertical-align: middle; width: 8px; background: #9A9FA4; box-shadow: 0 0 0 1px #97999D;">
+						</span>
+						<ul class="nav" style="height:100%; float:left; margin-top:-5%;">
+							<li style="float: left;">
+								<a href="#" style="color:A1A1A1;">
+									Tinary © 2014
+								</a>
+							</li>
+							<li style="float: left;">
+								<a href="#" style="color:A1A1A1;">
+									Privacidade
+								</a>
+							</li>
+							<li style="float: left;">
+								<a href="#" style="color:A1A1A1;">
+									Termos
+								</a>
+							</li>
+							<li style="float: left;">
+								<a href="#" style="color:A1A1A1;">
+									Anúncios
+								</a>
+							</li>
+						</ul>
+						<span style="float:left; border-radius: 100%; display: inline-block; height: 8px; margin: 4px 5px 10px 15px; vertical-align: middle; width: 8px; background: #9A9FA4; box-shadow: 0 0 0 1px #97999D;">
+					</div>	
+				</td>
+			</tr>
+		</table>
 	</body>
 	<script>
-		$( document ).ajaxComplete(function() {
-  		$( ".log" ).text( "Triggered ajaxComplete handler." );
-		});
-		$( ".trigger" ).click(function() {
-  		$( ".result" ).load( "ajax/test.html" );
-		});
-		$( document ).ajaxComplete(function( event, xhr, settings ) {
-		if ( settings.url === "ajax/test.html" ) {
-		$( ".log" ).text( "Triggered ajaxComplete handler. The result is " +
-		  xhr.responseHTML );
-		}
-		});
-		$( document ).ajaxComplete(function( event,request, settings ) {
-  		$( "#msg" ).append( "<li>Request Complete.</li>" );
+		$( window ).unload(function() {
+		  alert( "Bye now!" );
 		});
 	</script>
 </html>
